@@ -3,6 +3,9 @@ button{
 }
 .c-main{
     padding-top: 15px;
+    > .container-fluid{
+        padding-bottom: 30px;
+    }
 }
 
 .bg-light-success {
@@ -188,11 +191,18 @@ button{
 .form-box{
     .form-group{
         label{
-            display: block;            
+            display: block;                   
         }
-    }
+    }    
 }
 
+label{  
+    sup{
+        color: #ff0000;
+        left: 1px;
+        font-size: 80%;
+    }         
+}
 
 .nav-tabs{
   .nav-link{
@@ -446,5 +456,33 @@ button{
     }
     p{
         margin-bottom: 0;
+    }
+}
+
+.mx-600{
+    max-width: 600px;
+}
+
+.sidebar-column{
+    @include media-breakpoint-up(md){
+        max-width: 320px;
+    }
+}
+
+.bullet-align{
+    padding-left: 1em;
+}
+
+.btn{
+    &.btn-link{
+        text-decoration: none !important;
+    }   
+}
+
+.collapsed{
+    .icon-minus{
+        &:before{
+            content: "\e9bc";
+        }
     }
 }
