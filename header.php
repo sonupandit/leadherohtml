@@ -245,7 +245,7 @@
                 <a class="dropdown-item" href="#">
                     <div class="c-icon mr-2"><span class="icon-gears"></span></div> Company Settings
                 </a>   
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="my-settings.php">
                     <div class="c-icon mr-2"><span class="icon-gears"></span></div> My Settings
                 </a> 
               <div class="dropdown-divider"></div>
