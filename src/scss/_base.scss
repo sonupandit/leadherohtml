@@ -15,8 +15,24 @@ label {
     &.btn-dark{
         background-color: lighten($black, 25%);
     }
+    &.btn-outline-dark {
+        color: lighten($black, 25%);
+        border-color: lighten($black, 25%);
+        &:hover{
+            color: $white;
+            background-color: lighten($black, 25%);
+            border-color: lighten($black, 25%);
+        }
+    }
 }
 
+.btn-link{
+    text-decoration: none;
+}
+
+.badge-dark{
+    background-color: $black;
+}
 
 
 body{
