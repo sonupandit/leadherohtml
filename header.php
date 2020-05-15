@@ -217,32 +217,32 @@
                 <a class="dropdown-item" href="funnel-reason.php">
                     <div class="c-icon mr-2"><span class="icon-to-do-list"></span></div> Masters
                 </a> 
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="email-templates-list.php">
                     <div class="c-icon mr-2"><span class="icon-template"></span></div> Email Templates
                 </a>  
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="actionplan-list.php">
                     <div class="c-icon mr-2"><span class="icon-action"></span></div> Action Plans
                 </a>    
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="users-list.php">
                     <div class="c-icon mr-2"><span class="icon-group-1"></span></div> Users
                 </a>  
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="groups-list.php">
                     <div class="c-icon mr-2"><span class="icon-group"></span></div> Groups
                 </a>  
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="leadflow-list.php">
                     <div class="c-icon mr-2"><span class="icon-diagram"></span></div> Lead Flow
                 </a> 
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="incentives.php">
                     <div class="c-icon mr-2"><span class="icon-growth"></span></div> Revenue / Incentives
                 </a> 
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="export.php">
                     <div class="c-icon mr-2"><span class="icon-export"></span></div> Export Data
                 </a> 
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="import.php">
                     <div class="c-icon mr-2"><span class="icon-downloading-data"></span></div> Import Data
                 </a>          
               <div class="dropdown-header bg-light py-2"><strong>Settings</strong></div>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="company-setting.php">
                     <div class="c-icon mr-2"><span class="icon-gears"></span></div> Company Settings
                 </a>   
                 <a class="dropdown-item" href="my-settings.php">

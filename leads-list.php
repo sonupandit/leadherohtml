@@ -132,7 +132,7 @@
                                 <div class="col">
                                 <div class="row">                               
                                 <div class="col-12 col-md-auto">
-                                    <a href="" class="avatar-link">
+                                    <a href="lead-info.php" class="avatar-link">
                                         <div class="c-avatar">
                                             <img class="c-avatar-img" src="images-leadhero/avatars/no-img.jpg"> 
                                         </div>                                        
@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="col-12 col-md py-2 py-md-0">
                                     <div class="ul-detail">
-                                        <h2><a href="#">Dheer</a> <span class="badge" style="background-color: #c8ffff;">1.0</span></h2>
+                                        <h2><a href="lead-info.php">Dheer</a> <span class="badge" style="background-color: #c8ffff;">1.0</span></h2>
                                         <div class="link"><a href="mailto:dheermahi@gmail.com">dheermahi@gmail.com</a></div>
                                         <div class="link"><a href="tel:+918219688364">+918219688364</a></div>
 
@@ -192,7 +192,7 @@
                                 <div class="col">
                                 <div class="row">                               
                                 <div class="col-12 col-md-auto">
-                                    <a href="" class="avatar-link">
+                                    <a href="lead-info.php" class="avatar-link">
                                         <div class="c-avatar">
                                             <img class="c-avatar-img" src="images-leadhero/avatars/no-img.jpg"> 
                                         </div>                                        
@@ -200,7 +200,7 @@
                                 </div>
                                 <div class="col-12 col-md py-2 py-md-0">
                                     <div class="ul-detail">
-                                        <h2><a href="#">Vijay Chauhan</a> <span class="badge" style="background-color: #c8ffff;">1.0</span></h2>
+                                        <h2><a href="lead-info.php">Vijay Chauhan</a> <span class="badge" style="background-color: #c8ffff;">1.0</span></h2>
                                         <div class="link"><a href="mailto:dheermahi@gmail.com">dheermahi@gmail.com</a></div>
                                         <div class="link"><a href="tel:+918219688364">+918219688364</a></div>
 
@@ -287,7 +287,7 @@
                     </a>
                  </div>
              </div>
-             <ul class="list-unstyled tags-list">
+             <ul class="list-unstyled tags-list c-sidebar-nav">
                 <li>
                     <span class="numbers">*</span>
                     <a href="" class="btn btn-outline-primary">*Check with royston this client seens to be cross checking rates</a>
@@ -307,6 +307,63 @@
                     <a href="" class="btn btn-outline-primary">1 BHK apt - Less budget</a>
                     <a href="" class="btn btn-outline-primary">1 BHK Ground Floor</a>
                 </li>
+                <li>
+                    <span class="numbers">*</span>
+                    <a href="" class="btn btn-outline-primary">*Check with royston this client seens to be cross checking rates</a>
+                </li>
+                <li>
+                    <span class="numbers">-</span>
+                    <a href="" class="btn btn-outline-primary">- La Paz Estate</a>
+                </li>
+                <li>
+                    <span class="numbers">0</span>
+                    <a href="" class="btn btn-outline-primary">09 Jan 2019</a>
+                </li>
+                <li>
+                    <span class="numbers">1</span>
+                    <a href="" class="btn btn-outline-primary">1 BHK</a>
+                    <a href="" class="btn btn-outline-primary">1 Bhk Apt</a>
+                    <a href="" class="btn btn-outline-primary">1 BHK apt - Less budget</a>
+                    <a href="" class="btn btn-outline-primary">1 BHK Ground Floor</a>
+                </li>
+                <li>
+                    <span class="numbers">*</span>
+                    <a href="" class="btn btn-outline-primary">*Check with royston this client seens to be cross checking rates</a>
+                </li>
+                <li>
+                    <span class="numbers">-</span>
+                    <a href="" class="btn btn-outline-primary">- La Paz Estate</a>
+                </li>
+                <li>
+                    <span class="numbers">0</span>
+                    <a href="" class="btn btn-outline-primary">09 Jan 2019</a>
+                </li>
+                <li>
+                    <span class="numbers">1</span>
+                    <a href="" class="btn btn-outline-primary">1 BHK</a>
+                    <a href="" class="btn btn-outline-primary">1 Bhk Apt</a>
+                    <a href="" class="btn btn-outline-primary">1 BHK apt - Less budget</a>
+                    <a href="" class="btn btn-outline-primary">1 BHK Ground Floor</a>
+                </li>
+                <li>
+                    <span class="numbers">*</span>
+                    <a href="" class="btn btn-outline-primary">*Check with royston this client seens to be cross checking rates</a>
+                </li>
+                <li>
+                    <span class="numbers">-</span>
+                    <a href="" class="btn btn-outline-primary">- La Paz Estate</a>
+                </li>
+                <li>
+                    <span class="numbers">0</span>
+                    <a href="" class="btn btn-outline-primary">09 Jan 2019</a>
+                </li>
+                <li>
+                    <span class="numbers">1</span>
+                    <a href="" class="btn btn-outline-primary">1 BHK</a>
+                    <a href="" class="btn btn-outline-primary">1 Bhk Apt</a>
+                    <a href="" class="btn btn-outline-primary">1 BHK apt - Less budget</a>
+                    <a href="" class="btn btn-outline-primary">1 BHK Ground Floor</a>
+                </li>                
              </ul>
           </div>
 
