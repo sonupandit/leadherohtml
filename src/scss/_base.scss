@@ -34,6 +34,10 @@ label {
     background-color: $black;
 }
 
+.table{
+    width: calc(100% - 1px);
+}
+
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -226,3 +230,6 @@ body{
 
 }
 
+.table-striped{
+    border: 1px solid $border-color;
+}
