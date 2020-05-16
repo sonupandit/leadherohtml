@@ -11401,6 +11401,14 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var _jscolor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./jscolor */ "./src/js/jscolor.js");
 /* harmony import */ var _jscolor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_jscolor__WEBPACK_IMPORTED_MODULE_0__);
 
+$(document).on("click", ".c-header-toggler:eq(1)", function () {
+  $("html").toggleClass("nav-hide");
+});
+$(window).on("resize", function () {
+  if (window.innerWidth > 991) {
+    $(".nav-hide .c-header-toggler:eq(1)").trigger("click");
+  }
+});
 $(".c-wrapper").height(window.innerHeight);
 $(".c-app").css("min-height", window.innerHeight);
 $(window).on("resize", function () {

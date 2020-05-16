@@ -2,7 +2,7 @@
       <main class="c-main">
           <div class="container-fluid">
             <div class="fade-in">
-                <div class="row">
+                <div class="row with-sidebar">
                      <div class="col-12 col-md">
                         <div class="row title-row mb-4">
                             <div class="col">

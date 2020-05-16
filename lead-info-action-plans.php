@@ -98,63 +98,41 @@
                             <div class="col-auto">
                                <nav class="sidbar-tabs">
                                     <ul class="sidebar-tab-links list-unstyled">
-                                        <li><a href="lead-info.php" class="active">Overview</a></li>
+                                        <li><a href="lead-info.php">Overview</a></li>
                                         <li><a href="lead-info-send-email.php">Send Email</a></li>
                                         <li><a href="lead-info-notes.php">Notes <span class="badge badge-success">2</span></a></li>
                                         <li><a href="lead-info-task.php">Task <span class="badge badge-warning">1</span></a></li>
-                                        <li><a href="lead-info-action-plans.php">Action Plans</a></li>
+                                        <li><a href="lead-info-action-plans.php" class="active">Action Plans</a></li>
                                     </ul>
                                </nav>
                             </div>
                             <div class="col-12 col-md">
                                <div class="sidebar-tab-content p-3 bg-white">
-                                   <div class="form-box">
+                                 <div class="form-box">                                       
                                         <form action="">
-                                            <div class="form-group">
-                                                <textarea name="" id="" rows="4" placeholder="Add a note"  class="form-control"></textarea>
-                                            </div>
-                                            <div class="btn-wrap">
-                                            <button class="btn btn-primary">Save Note</button>
+                                            <div class="row">
+                                                <div class="col-12"><label for="">Assign Action Plan to lead <sup>*</sup></label></div>
+                                                <div class="col">
+                                                    <div class="form-group">    
+                                                        <select name="" id="" class="form-control">
+                                                            <option value="">Select Action Plan</option>
+                                                        </select>
+                                                    </div>
+                                                </div> 
+                                                <div class="col-auto">
+                                                    <div class="btn-wrap">
+                                                        <button class="btn btn-primary">Apply</button>           
+                                                    </div>
+                                               </div>
                                             </div>
                                         </form>
-                                   </div>
+                                    </div>  
 
-                                    <ul class="list-unstyled minimal-listing mt-4">
-                                       <li>
-                                         <div class="row flex-nowrap">
-                                            <div class="col">
-                                                <div class="custom-control custom-checkbox custom-control-inline">
-                                                    <input type="checkbox" class="custom-control-input" id="cc">
-                                                    <label class="custom-control-label" for="cc"><span class="badge badge-dark">Follow Up</span></label>
-                                                </div>
-                                                <a href="" style="text-decoration:line-through">send lluvia details on whatsapp </a>  :: completed by Ruchi Sharma
-                                            </div>
-                                            <div class="col-auto">
-                                              09 May 2020
-                                            </div>
-                                         </div>
-                                       </li>
-                                       <li>
-                                         <div class="row flex-nowrap">
-                                            <div class="col">                                                
-                                                <a href=""><strong>busy on a call- aske dto call later</strong> </a> :: added by Ruchi Sharma
-                                            </div>
-                                            <div class="col-auto">
-                                              09 May 2020
-                                            </div>
-                                         </div>
-                                       </li>
-                                       <li>
-                                         <div class="row flex-nowrap">
-                                            <div class="col">                                                
-                                            <strong>Assigned to</strong> <a href="">Ruchi Sharma </a> :: by Team Three
-                                            </div>
-                                            <div class="col-auto">
-                                              09 May 2020
-                                            </div>
-                                         </div>
-                                       </li>    
-                                    </ul>
+                                   <div class="card mt-3">
+                                       <div class="card-body">
+                                         Still no Action Plan assigned to lead
+                                       </div>
+                                   </div>
 
                                </div>
                             </div>

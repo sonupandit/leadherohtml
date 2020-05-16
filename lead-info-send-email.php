@@ -98,8 +98,8 @@
                             <div class="col-auto">
                                <nav class="sidbar-tabs">
                                     <ul class="sidebar-tab-links list-unstyled">
-                                        <li><a href="lead-info.php" class="active">Overview</a></li>
-                                        <li><a href="lead-info-send-email.php">Send Email</a></li>
+                                        <li><a href="lead-info.php">Overview</a></li>
+                                        <li><a href="lead-info-send-email.php" class="active">Send Email</a></li>
                                         <li><a href="lead-info-notes.php">Notes <span class="badge badge-success">2</span></a></li>
                                         <li><a href="lead-info-task.php">Task <span class="badge badge-warning">1</span></a></li>
                                         <li><a href="lead-info-action-plans.php">Action Plans</a></li>
@@ -108,53 +108,73 @@
                             </div>
                             <div class="col-12 col-md">
                                <div class="sidebar-tab-content p-3 bg-white">
-                                   <div class="form-box">
+                                    <div class="form-box">
+                                        <h4 class="h5 mb-3">Send an Email</h4>
                                         <form action="">
-                                            <div class="form-group">
-                                                <textarea name="" id="" rows="4" placeholder="Add a note"  class="form-control"></textarea>
-                                            </div>
-                                            <div class="btn-wrap">
-                                            <button class="btn btn-primary">Save Note</button>
+                                            <div class="row">
+                                                <div class="col-12 col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="">To <sup>*</sup></label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="">CC</label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="">BCC</label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Subject <sup>*</sup></label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>                                               
+                                                <div class="col-12">
+                                                   <div class="row flex-nowrap align-items-end mb-2">
+                                                        <div class="col">
+                                                          <label class="m-0">Body</label>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <select class="form-control form-control-sm" name="" id="">
+                                                                <option value="">-Select a template-</option>    
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <textarea name="" rows="4" class="form-control"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Attachment <small>(Size Limit 5MB)</small></label>
+                                                        <div class="input-group mb-3">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text" id="">Upload</span>
+                                                            </div>
+                                                            <div class="custom-file">
+                                                                <input type="file" class="custom-file-input" id="fl">
+                                                                <label class="custom-file-label" for="fl">Choose file</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                               <div class="col-12">
+                                                    <div class="btn-wrap">
+                                                        <button class="btn btn-primary">Send</button>
+                                                        <button class="btn btn-warning">Cancel</button>
+                                                    </div>
+                                               </div>
                                             </div>
                                         </form>
-                                   </div>
-
-                                    <ul class="list-unstyled minimal-listing mt-4">
-                                       <li>
-                                         <div class="row flex-nowrap">
-                                            <div class="col">
-                                                <div class="custom-control custom-checkbox custom-control-inline">
-                                                    <input type="checkbox" class="custom-control-input" id="cc">
-                                                    <label class="custom-control-label" for="cc"><span class="badge badge-dark">Follow Up</span></label>
-                                                </div>
-                                                <a href="" style="text-decoration:line-through">send lluvia details on whatsapp </a>  :: completed by Ruchi Sharma
-                                            </div>
-                                            <div class="col-auto">
-                                              09 May 2020
-                                            </div>
-                                         </div>
-                                       </li>
-                                       <li>
-                                         <div class="row flex-nowrap">
-                                            <div class="col">                                                
-                                                <a href=""><strong>busy on a call- aske dto call later</strong> </a> :: added by Ruchi Sharma
-                                            </div>
-                                            <div class="col-auto">
-                                              09 May 2020
-                                            </div>
-                                         </div>
-                                       </li>
-                                       <li>
-                                         <div class="row flex-nowrap">
-                                            <div class="col">                                                
-                                            <strong>Assigned to</strong> <a href="">Ruchi Sharma </a> :: by Team Three
-                                            </div>
-                                            <div class="col-auto">
-                                              09 May 2020
-                                            </div>
-                                         </div>
-                                       </li>    
-                                    </ul>
+                                    </div>        
+                                    
 
                                </div>
                             </div>

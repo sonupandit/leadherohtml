@@ -204,3 +204,25 @@ body{
         transform: rotate(360deg);
     }
 }
+
+.c-body{
+    overflow-y: visible !important;
+}
+.c-header{
+    position: fixed !important;
+}
+
+@include media-breakpoint-up(lg){
+    .c-header{       
+        margin-left: 256px;
+        transition: margin-left .25s;
+    }
+    .nav-hide{
+        .c-header{            
+            margin-left: 0;            
+        }
+    }
+
+
+}
+

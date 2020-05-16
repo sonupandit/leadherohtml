@@ -98,62 +98,95 @@
                             <div class="col-auto">
                                <nav class="sidbar-tabs">
                                     <ul class="sidebar-tab-links list-unstyled">
-                                        <li><a href="lead-info.php" class="active">Overview</a></li>
+                                        <li><a href="lead-info.php">Overview</a></li>
                                         <li><a href="lead-info-send-email.php">Send Email</a></li>
                                         <li><a href="lead-info-notes.php">Notes <span class="badge badge-success">2</span></a></li>
-                                        <li><a href="lead-info-task.php">Task <span class="badge badge-warning">1</span></a></li>
+                                        <li><a href="lead-info-task.php" class="active">Task <span class="badge badge-warning">1</span></a></li>
                                         <li><a href="lead-info-action-plans.php">Action Plans</a></li>
                                     </ul>
                                </nav>
                             </div>
                             <div class="col-12 col-md">
                                <div class="sidebar-tab-content p-3 bg-white">
-                                   <div class="form-box">
+                               <div class="form-box">
+                                        <h4 class="h5 mb-3">Add a Task</h4>
                                         <form action="">
-                                            <div class="form-group">
-                                                <textarea name="" id="" rows="4" placeholder="Add a note"  class="form-control"></textarea>
-                                            </div>
-                                            <div class="btn-wrap">
-                                            <button class="btn btn-primary">Save Note</button>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Task <sup>*</sup></label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="">Date <sup>*</sup></label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="">Time</label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="">Assigned User <sup>*</sup></label>
+                                                        <select name="" id="" class="form-control">
+                                                            <option value="">Vianaar Homes</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="">Task Type <sup>*</sup></label>
+                                                        <select name="" id="" class="form-control">
+                                                            <option value="">Follow Up</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                                                               
+                                                
+                                               <div class="col-12">
+                                                    <div class="btn-wrap">
+                                                        <button class="btn btn-primary">Save Task</button>           
+                                                    </div>
+                                               </div>
                                             </div>
                                         </form>
-                                   </div>
+                                    </div>  
 
                                     <ul class="list-unstyled minimal-listing mt-4">
                                        <li>
                                          <div class="row flex-nowrap">
                                             <div class="col">
                                                 <div class="custom-control custom-checkbox custom-control-inline">
-                                                    <input type="checkbox" class="custom-control-input" id="cc">
-                                                    <label class="custom-control-label" for="cc"><span class="badge badge-dark">Follow Up</span></label>
+                                                    <input type="checkbox" class="custom-control-input" id="e0">
+                                                    <label class="custom-control-label" for="e0"><span class="badge badge-dark">Follow Up</span></label>
                                                 </div>
-                                                <a href="" style="text-decoration:line-through">send lluvia details on whatsapp </a>  :: completed by Ruchi Sharma
+                                                <a href="" style="text-decoration:line-through">call at 4 </a>  ::completed by Ruchi Sharma
                                             </div>
                                             <div class="col-auto">
-                                              09 May 2020
+                                               13 May-20 01:10 PM
                                             </div>
                                          </div>
                                        </li>
                                        <li>
                                          <div class="row flex-nowrap">
-                                            <div class="col">                                                
-                                                <a href=""><strong>busy on a call- aske dto call later</strong> </a> :: added by Ruchi Sharma
+                                            <div class="col">
+                                                <div class="custom-control custom-checkbox custom-control-inline">
+                                                    <input type="checkbox" class="custom-control-input" id="e1">
+                                                    <label class="custom-control-label" for="e1"><span class="badge badge-dark">Follow Up</span></label>
+                                                </div>
+                                                <a href="" style="text-decoration:line-through"> send lluvia details on whatsapp</a>  ::completed by Ruchi Sharma
                                             </div>
                                             <div class="col-auto">
-                                              09 May 2020
+                                                09 May-20 11:29 AM
                                             </div>
                                          </div>
-                                       </li>
-                                       <li>
-                                         <div class="row flex-nowrap">
-                                            <div class="col">                                                
-                                            <strong>Assigned to</strong> <a href="">Ruchi Sharma </a> :: by Team Three
-                                            </div>
-                                            <div class="col-auto">
-                                              09 May 2020
-                                            </div>
-                                         </div>
-                                       </li>    
+                                       </li>   
                                     </ul>
 
                                </div>

@@ -2,6 +2,17 @@ import "./jscolor";
 
 
 
+$(document).on("click", ".c-header-toggler:eq(1)", function(){
+   $("html").toggleClass("nav-hide");
+});
+
+$(window).on("resize", function(){
+ if(window.innerWidth > 991){
+    $(".nav-hide .c-header-toggler:eq(1)").trigger("click");
+ }
+});
+
+
 $(".c-wrapper").height(window.innerHeight);
 $(".c-app").css("min-height", window.innerHeight);
 

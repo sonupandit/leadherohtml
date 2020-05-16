@@ -98,9 +98,9 @@
                             <div class="col-auto">
                                <nav class="sidbar-tabs">
                                     <ul class="sidebar-tab-links list-unstyled">
-                                        <li><a href="lead-info.php" class="active">Overview</a></li>
+                                        <li><a href="lead-info.php">Overview</a></li>
                                         <li><a href="lead-info-send-email.php">Send Email</a></li>
-                                        <li><a href="lead-info-notes.php">Notes <span class="badge badge-success">2</span></a></li>
+                                        <li><a href="lead-info-notes.php"  class="active">Notes <span class="badge badge-success">2</span></a></li>
                                         <li><a href="lead-info-task.php">Task <span class="badge badge-warning">1</span></a></li>
                                         <li><a href="lead-info-action-plans.php">Action Plans</a></li>
                                     </ul>
@@ -108,52 +108,46 @@
                             </div>
                             <div class="col-12 col-md">
                                <div class="sidebar-tab-content p-3 bg-white">
-                                   <div class="form-box">
-                                        <form action="">
-                                            <div class="form-group">
-                                                <textarea name="" id="" rows="4" placeholder="Add a note"  class="form-control"></textarea>
-                                            </div>
-                                            <div class="btn-wrap">
-                                            <button class="btn btn-primary">Save Note</button>
-                                            </div>
-                                        </form>
-                                   </div>
+                                    <form action="">
+                                        <div class="form-group">
+                                            <textarea name="" id="" rows="4" placeholder="Add a note"  class="form-control"></textarea>
+                                        </div>
+                                        <div class="btn-wrap">
+                                        <button class="btn btn-primary">Save Note</button>
+                                        </div>
+                                    </form>
 
                                     <ul class="list-unstyled minimal-listing mt-4">
                                        <li>
                                          <div class="row flex-nowrap">
                                             <div class="col">
-                                                <div class="custom-control custom-checkbox custom-control-inline">
-                                                    <input type="checkbox" class="custom-control-input" id="cc">
-                                                    <label class="custom-control-label" for="cc"><span class="badge badge-dark">Follow Up</span></label>
-                                                </div>
-                                                <a href="" style="text-decoration:line-through">send lluvia details on whatsapp </a>  :: completed by Ruchi Sharma
+                                                <a href="">asked to call in 3 days </a>  :: added by Ruchi Sharma
                                             </div>
                                             <div class="col-auto">
-                                              09 May 2020
+                                              13 May,20 01:10pm
                                             </div>
                                          </div>
                                        </li>
                                        <li>
                                          <div class="row flex-nowrap">
-                                            <div class="col">                                                
-                                                <a href=""><strong>busy on a call- aske dto call later</strong> </a> :: added by Ruchi Sharma
+                                            <div class="col">
+                                                <a href=""> shared the details of standalone lluvia on meail </a>  :: added by Ruchi Sharma
                                             </div>
                                             <div class="col-auto">
-                                              09 May 2020
+                                               13 May,20 01:09pm
                                             </div>
                                          </div>
-                                       </li>
+                                       </li>  
                                        <li>
                                          <div class="row flex-nowrap">
-                                            <div class="col">                                                
-                                            <strong>Assigned to</strong> <a href="">Ruchi Sharma </a> :: by Team Three
+                                            <div class="col">
+                                                <a href="">busy on a call- asked to call later</a>  :: added by Ruchi Sharma
                                             </div>
                                             <div class="col-auto">
-                                              09 May 2020
+                                               09 May,20 11:29am
                                             </div>
                                          </div>
-                                       </li>    
+                                       </li> 
                                     </ul>
 
                                </div>
