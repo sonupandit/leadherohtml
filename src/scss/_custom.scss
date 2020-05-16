@@ -3,7 +3,7 @@ button{
 }
 .c-main{
     padding-top: 120px;
-    @include media-breakpoint-down(lg){        
+    @include media-breakpoint-down(md){        
      padding-top: 150px; 
     }
     > .container-fluid{
@@ -13,6 +13,14 @@ button{
         .with-sidebar{
             height: 100%;
         }
+    }
+}
+
+.custom-checkbox{
+    &.form-control{
+       border: 0 !important;
+       background-color: transparent !important; 
+       border-color: transparent !important; 
     }
 }
 
@@ -289,7 +297,7 @@ label{
 }
 
 .action-group{
-    margin: 0 -10px;
+    margin: 0 -10px !important;
     > li{
         padding: 0 10px;
         a{
@@ -603,15 +611,16 @@ label{
       border-bottom: 1px solid $border-color;     
   }
 }
-.sc-inner{
-  margin-top: -15px;
-  margin-right: -30px;
-  margin-bottom: -31px;
+.sc-inner{  
   padding: 15px;
   background-color: $white;
   border-left: 1px solid $border-color;
   border-bottom: 1px solid $border-color;
-
+ @include media-breakpoint-up(md){
+    margin-top: -15px;  
+    margin-right: -30px;
+    margin-bottom: -31px;
+ }
 
     > .card{
         margin-bottom: 5px;
@@ -686,6 +695,19 @@ label{
         a{
             font-size: 18px;
             text-decoration: none;
+        }
+    }
+}
+
+.actionplan-listing{
+    .step{
+        .badge{
+            min-width: 24px;
+            text-align: center;
+            height: 20px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
