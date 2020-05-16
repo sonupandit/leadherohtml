@@ -61,6 +61,9 @@
   .icon-arrow-left:before {
     content: "\e962";
   }
+  .icon-arrow-left-circle:before {
+    content: "\e9e9";
+  }
   .icon-arrow-right:before {
     content: "\e9df";
   }
@@ -96,6 +99,9 @@
   }
   .icon-camera:before {
     content: "\e9c8";
+  }
+  .icon-camera-off:before {
+    content: "\e9ea";
   }
   .icon-check:before {
     content: "\e9a5";
@@ -160,6 +166,9 @@
   .icon-corner-up-right:before {
     content: "\e970";
   }
+  .icon-crosshair:before {
+    content: "\e9eb";
+  }
   .icon-database:before {
     content: "\e971";
   }
@@ -175,6 +184,15 @@
   .icon-download-cloud:before {
     content: "\e974";
   }
+  .icon-edit1:before {
+    content: "\e9ec";
+  }
+  .icon-edit-2:before {
+    content: "\e9ed";
+  }
+  .icon-edit-3:before {
+    content: "\e9ee";
+  }
   .icon-external-link:before {
     content: "\e975";
   }
@@ -189,6 +207,12 @@
   }
   .icon-file:before {
     content: "\e9ae";
+  }
+  .icon-file-minus:before {
+    content: "\e9ef";
+  }
+  .icon-file-plus:before {
+    content: "\e9f0";
   }
   .icon-file-text:before {
     content: "\e9af";
@@ -211,6 +235,21 @@
   .icon-folder-plus:before {
     content: "\e978";
   }
+  .icon-git-branch:before {
+    content: "\e9f1";
+  }
+  .icon-git-commit:before {
+    content: "\e9f2";
+  }
+  .icon-git-merge:before {
+    content: "\e9f3";
+  }
+  .icon-git-pull-request:before {
+    content: "\e9f4";
+  }
+  .icon-globe:before {
+    content: "\e9f5";
+  }
   .icon-grid:before {
     content: "\e979";
   }
@@ -229,14 +268,23 @@
   .icon-instagram:before {
     content: "\e9ca";
   }
+  .icon-key:before {
+    content: "\e9f6";
+  }
   .icon-link:before {
     content: "\e97d";
+  }
+  .icon-link-2:before {
+    content: "\e9f7";
   }
   .icon-linkedin:before {
     content: "\e9cb";
   }
   .icon-list:before {
     content: "\e97e";
+  }
+  .icon-lock:before {
+    content: "\e9f8";
   }
   .icon-log-in:before {
     content: "\e9b3";
@@ -246,6 +294,9 @@
   }
   .icon-mail:before {
     content: "\e980";
+  }
+  .icon-map:before {
+    content: "\e9f9";
   }
   .icon-map-pin:before {
     content: "\e981";
@@ -319,6 +370,9 @@
   .icon-plus-circle:before {
     content: "\e98c";
   }
+  .icon-plus-square:before {
+    content: "\e9fa";
+  }
   .icon-pocket:before {
     content: "\e98d";
   }
@@ -333,6 +387,9 @@
   }
   .icon-refresh-cw:before {
     content: "\e990";
+  }
+  .icon-repeat:before {
+    content: "\e9fb";
   }
   .icon-rotate-ccw:before {
     content: "\e991";
@@ -400,8 +457,14 @@
   .icon-trending-up:before {
     content: "\e99c";
   }
+  .icon-twitch:before {
+    content: "\e9fc";
+  }
   .icon-twitter:before {
     content: "\e9d2";
+  }
+  .icon-unlock:before {
+    content: "\e9fd";
   }
   .icon-upload:before {
     content: "\e9e7";
@@ -724,4 +787,3 @@
   .icon-user-11:before {
     content: "\e955";
   }
-  
