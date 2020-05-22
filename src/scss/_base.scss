@@ -1,8 +1,19 @@
 a{
     color: $primaryText;
+    &:hover{
+        text-decoration: none;
+    }
 }
 label {   
     margin-bottom: .2rem;
+}
+
+.bg-dark{
+    background-color: #7C7D7D !important;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #eeeeee;    
 }
 
 .btn{
@@ -15,6 +26,14 @@ label {
     &.btn-dark{
         background-color: lighten($black, 25%);
     }
+    &.btn-success{
+        border-color: darken($primaryColor, 5%) !important;
+        background-color: $primaryColor !important;
+        box-shadow: none !important;
+        &:hover{           
+            background-color: darken($primaryColor, 5%) !important;
+        }
+    }
     &.btn-outline-dark {
         color: lighten($black, 25%);
         border-color: lighten($black, 25%);
@@ -23,6 +42,9 @@ label {
             background-color: lighten($black, 25%);
             border-color: lighten($black, 25%);
         }
+    }
+    &.btn-light{
+        border-color: #d6dade !important;        
     }
 }
 
@@ -37,7 +59,9 @@ label {
 .table{
     width: calc(100% - 1px);
 }
-
+.table-success, .table-success>th, .table-success>td {   
+    background-color: #e9ffd4;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -95,26 +119,30 @@ body{
 
 .c-sidebar-nav-item{
     position: relative;
- a{
-     + a{
-         display: block;
-         position: absolute;
-         width: 20px;
-         height: 20px;
-         line-height: 20px;
-         text-align: center;         
-         right: 15px;        
-         z-index: 9;
-         top: 6px;
-         font-size: 12px;
-         text-decoration: none !important;
-         color: $white;
-         transition: opacity 0.3s;
-         &:hover{
-             opacity: 0.7;
-         }
-     }
- }
+    a{
+        + a{
+            display: block;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;         
+            right: 15px;        
+            z-index: 9;
+            top: 6px;
+            font-size: 12px;
+            text-decoration: none !important;            
+            transition: opacity 0.3s;
+            &:hover{
+                opacity: 0.7;
+            }
+        }
+        &:hover{
+            + a{
+                color: $white;
+            }
+        }
+    }
 }
 
 .c-sidebar-nav-link{

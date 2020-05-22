@@ -51,27 +51,27 @@
         <li class="c-sidebar-nav-divider my-3"><span class="separator"></span></li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-contact"></span></div> All People</a>
-            <a href=""><span class="icon-edit"></span></a>          
+            <a href="smartlist.php"><span class="icon-edit"></span></a>          
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-2"></span></div> Not Contacted</a>      
-            <a href=""><span class="icon-edit"></span></a>     
+            <a href="smartlist.php"><span class="icon-edit"></span></a>     
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-4"></span></div> All Contacted</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Lead Review</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-global"></span></div> Site Visit</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> SD1</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Re-screened- July</a>     
@@ -79,7 +79,7 @@
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Closed leads</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Site Visit-Existing Client</a>     
@@ -87,31 +87,31 @@
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-urban"></span></div> Mumbai Hot</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-missed-call"></span></div> Not reachable- Screening Managers</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Purchase Complete</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Re screening June</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Delhi/NCR</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Screened</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> VH Siddharth</a>     
-            <a href=""><span class="icon-edit"></span></a>      
+            <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item">
             <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-checklist"></span></div> New Smart List</a>     
@@ -250,7 +250,7 @@
                 </a> 
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">
-              <div class="c-icon mr-2"><span class="icon-right-arrow"></span></div> Logout
+                 <div class="c-icon mr-2"><span class="icon-right-arrow"></span></div> Logout
               </a>
             </div>
           </li>
