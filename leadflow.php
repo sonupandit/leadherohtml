@@ -4,7 +4,7 @@
             <div class="fade-in">
                 <div class="row">
                      <div class="col-12 col-md">
-                        <div class="row title-row mb-2">
+                        <div class="row title-row mb-4">
                             <div class="col">
                                 <h1 class="h4 m-0">Edit Rules for La Paz Estate - Buyer - Vianaar Homes</h1>
                             </div>
@@ -85,12 +85,12 @@
                                                     <tbody>
                                                         <tr>
                                                             <td>
-                                                              <select name="" id="" class="form-control">
+                                                              <select name="" id="" style="min-width:200px;" class="form-control">
                                                                  <option>Vianaar Homes</option>
                                                               </select>
                                                             </td>
                                                             <td>
-                                                              <select name="" id="" class="form-control">
+                                                              <select name="" id="" style="min-width:200px;" class="form-control">
                                                                  <option>Full market set up</option>
                                                               </select>
                                                             </td>

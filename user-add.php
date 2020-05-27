@@ -75,12 +75,12 @@
 
 
                                 
-                                <div class="card">
-                                    <div class="card-header">Permissions</div>
-                                     <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 pb-2"><strong>Permissions</strong></div>
+                                     <div class="col-12">
                                         <div class="table-responsive">
-                                            <table class="table table-striped mb-0">
-                                                <thead>                                            
+                                            <table class="table table-striped">
+                                                <thead class="table-success">                                            
                                                     <tr>
                                                         <th>Section</th>
                                                         <th>Action</th>

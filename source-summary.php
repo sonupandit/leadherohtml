@@ -4,10 +4,10 @@
     <div class="fade-in">
 
       <div class="row title-row mb-3 align-items-end">
-        <div class="col-12 col-sm-auto">
-          <h1 class="h4 mb-sm-0">Dashboard</h1>
+        <div class="col-12 col-xl-auto">
+          <h1 class="h4 mb-xl-0">Lead Source Summary: El Rosario </h1>
         </div>
-        <div class="col-12 col-sm d-flex justify-content-end">
+        <div class="col-12 col-xl d-flex justify-content-xl-end">
           <div class="row justify-content-end align-items-center">
             <div class="col-12 col-sm">
               <div class="row mx-n2">
@@ -53,7 +53,7 @@
 
       <div class="row dashboard-data">
         <div class="col-12 col-sm-6 col-md-4 col-xl">
-          <a href="leads-list.php?c1" class="card bg-light-success">
+          <a href="#" class="card bg-light-success">
             <div class="card-body card-body d-flex text-center justify-content-center align-items-center">
               <div>
                 <div class="text-value-lg">32</div>
@@ -64,7 +64,7 @@
         </div>
 
         <div class="col-12 col-sm-6 col-md-4 col-xl">
-          <a href="leads-list.php?c2" class="card bg-light-warning">
+          <a href="#" class="card bg-light-warning">
             <div class="card-body card-body d-flex text-center justify-content-center align-items-center">
               <div>
                 <div class="text-value-lg">12</div>
@@ -75,18 +75,18 @@
         </div>
 
         <div class="col-12 col-sm-6 col-md-4 col-xl">
-          <a href="leads-list.php?c3" class="card bg-light-primary">
+          <a href="#" class="card bg-light-primary">
             <div class="card-body card-body d-flex text-center justify-content-center align-items-center">
               <div>
-                <div class="text-value-lg">76</div>
-                <div>Tasks Due</div>
+                <div class="text-value-lg">0%</div>
+                <div>Trashed</div>
               </div>
             </div>
           </a>
         </div>
 
         <div class="col-12 col-sm-6 col-md-4 col-xl">
-          <a href="leads-list.php?c4" class="card bg-light-info">
+          <a href="#" class="card bg-light-info">
             <div class="card-body card-body d-flex text-center justify-content-center align-items-center">
               <div>
                 <div class="text-value-lg">63%</div>
@@ -113,12 +113,11 @@
 
 
       <div class="row">
-        <div class="col-md-12">
-          <div class="card">
-            <div class="card-header">Leads added today</div>
-            <div class="card-body">
-              <table class="table data-table text-center table-responsive-sm table-hover table-outline">
-                <thead class="thead-light">
+        <div class="col-md-12 pt-3">
+          <p class="mb-1">People added <strong>All Time</strong> from <strong>El Rosario</strong> source</p>
+          <div class="table-responsive">
+            <table class="table table-middle data-table table-striped text-center table-hover">
+                <thead class="table-success">
                   <tr>
                     <th class="text-left">Name</th>
                     <th>Phone / Email</th>
@@ -191,106 +190,11 @@
                       N/A
                     </td>
                   </tr>
-
-                  <tr>
-                    <td>
-                      <a href="" class="avatar-link">
-                        <div class="c-avatar">
-                          <img class="c-avatar-img" src="images-leadhero/avatars/no-img.jpg">
-                        </div>
-                        <p>Peterpaul Nadar</p>
-                      </a>
-                    </td>
-                    <td>
-                      <div class="c-info">
-                        <a href="mailto:peterpaulnadar@gmail.com">peterpaulnadar@gmail.com</a><br>
-                        <a href="tel:+919825239178">+919825239178</a>
-                      </div>
-                    </td>
-                    <td>Closed</td>
-                    <td>
-                      <h4>La Macedo</h4>
-                      <small>20 minutes ago</small>
-                    </td>
-                    <td>
-                      <h4>Lead Pool</h4>
-                    </td>
-                    <td>
-                      <span class="badge p-1 badge-success"><span class="icon-check"></span> Contacted</span>
-                    </td>
-                    <td>
-                      N/A
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <a href="" class="avatar-link">
-                        <div class="c-avatar">
-                          <img class="c-avatar-img" src="images-leadhero/avatars/no-img.jpg">
-                        </div>
-                        <p>Gazge Salahuddin Husain</p>
-                      </a>
-                    </td>
-                    <td>
-                      <div class="c-info">
-                        <a href="mailto:sgazge@yahoo.com">sgazge@yahoo.com</a><br>
-                        <a href="tel:+917738243132">+917738243132</a>
-                      </div>
-                    </td>
-                    <td>Screened</td>
-                    <td>
-                      <h4>La Macedo</h4>
-                      <small>23 minutes ago</small>
-                    </td>
-                    <td>
-                      <h4>Nakita Antao</h4>
-                    </td>
-                    <td>
-                      <span class="badge p-1 badge-success"><span class="icon-check"></span> Contacted</span>
-                    </td>
-                    <td>
-                      2.0
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <a href="" class="avatar-link">
-                        <div class="c-avatar">
-                          <img class="c-avatar-img" src="images-leadhero/avatars/no-img.jpg">
-                        </div>
-                        <p>NareshKumar Barik</p>
-                      </a>
-                    </td>
-                    <td>
-                      <div class="c-info">
-                        <a href="mailto:nrshkmrbrk@gmail.com">nrshkmrbrk@gmail.com</a><br>
-                        <a href="tel:+918917589395">+918917589395</a>
-                      </div>
-                    </td>
-                    <td>N/A</td>
-                    <td>
-                      <h4>La Branca</h4>
-                      <small>30 minutes ago</small>
-                    </td>
-                    <td>
-                      <h4>Lead Pool</h4>
-                    </td>
-                    <td>
-                      <span class="badge p-1 badge-danger">Not Contacted</span>
-                    </td>
-                    <td>
-                      N/A
-                    </td>
-                  </tr>
-
                 </tbody>
               </table>
               <div class="data-all-btn clearfix">
-                <a href="" class="btn btn-outline-primary">View All 54 People</a>
+                <a href="" class="btn btn-sm btn-outline-primary">View All 54 People</a>
               </div>
-            </div>
           </div>
         </div>
         <!-- /.col-->

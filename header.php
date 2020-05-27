@@ -12,11 +12,11 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Main styles for this application-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700&display=swap" rel="stylesheet">
-    <link href="css-leadhero/app.min.css?v=0.2" rel="stylesheet">    
+    <link href="css-leadhero/app.min.css?v=0.3" rel="stylesheet">    
   </head>
   <body class="c-app">
     <div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
-      <div class="c-sidebar-brand d-lg-down-none">
+      <div class="c-sidebar-brand d-md-down-none">
         <div class="c-sidebar-brand-full">
           <a href="./">
              <img class="w-100" src="images-leadhero/logo.png" alt="LeadHero">
@@ -34,105 +34,105 @@
             <a class="c-sidebar-nav-link" href="leads-list.php"><div class="c-sidebar-nav-icon"><span class="icon-clock"></span></div> Site Visit Follow Up Today</a>          
         </li>
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-4"></span></div> Follow Up Today <span class="badge badge-info">2743</span></a>          
+            <a class="c-sidebar-nav-link" href="leads-list.php?2"><div class="c-sidebar-nav-icon"><span class="icon-user-4"></span></div> Follow Up Today <span class="badge badge-info">2743</span></a>          
         </li>
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-1"></span></div> Unactioned <span class="badge badge-warning">10447</span></a>          
+            <a class="c-sidebar-nav-link" href="leads-list.php?3"><div class="c-sidebar-nav-icon"><span class="icon-user-1"></span></div> Unactioned <span class="badge badge-warning">10447</span></a>          
         </li>
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-2"></span></div> Unassigned <span class="badge badge-danger">127</span></a>          
+            <a class="c-sidebar-nav-link" href="leads-list.php?4"><div class="c-sidebar-nav-icon"><span class="icon-user-2"></span></div> Unassigned <span class="badge badge-danger">127</span></a>          
         </li>
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-tasks-1"></span></div> Tasks</a>          
+            <a class="c-sidebar-nav-link" href="task-list.php"><div class="c-sidebar-nav-icon"><span class="icon-tasks-1"></span></div> Tasks</a>          
         </li>       
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-reporting"></span></div> Reporting</a>          
+            <a class="c-sidebar-nav-link" href="reporting.php"><div class="c-sidebar-nav-icon"><span class="icon-reporting"></span></div> Reporting</a>          
         </li>       
         <li class="c-sidebar-nav-divider my-3"><span class="separator"></span></li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-contact"></span></div> All People</a>
+            <a class="c-sidebar-nav-link" href="leads-list.php?4"><div class="c-sidebar-nav-icon"><span class="icon-contact"></span></div> All People</a>
             <a href="smartlist.php"><span class="icon-edit"></span></a>          
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-2"></span></div> Not Contacted</a>      
+            <a class="c-sidebar-nav-link" href="leads-list.php?6"><div class="c-sidebar-nav-icon"><span class="icon-user-2"></span></div> Not Contacted</a>      
             <a href="smartlist.php"><span class="icon-edit"></span></a>     
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-4"></span></div> All Contacted</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?7"><div class="c-sidebar-nav-icon"><span class="icon-user-4"></span></div> All Contacted</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Lead Review</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?8"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Lead Review</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-global"></span></div> Site Visit</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?9"><div class="c-sidebar-nav-icon"><span class="icon-global"></span></div> Site Visit</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> SD1</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?10"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> SD1</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Re-screened- July</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?11"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Re-screened- July</a>     
             <a href=""><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Closed leads</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?12"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Closed leads</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Site Visit-Existing Client</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?13"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Site Visit-Existing Client</a>     
             <a href=""><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-urban"></span></div> Mumbai Hot</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?14"><div class="c-sidebar-nav-icon"><span class="icon-urban"></span></div> Mumbai Hot</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-missed-call"></span></div> Not reachable- Screening Managers</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?15"><div class="c-sidebar-nav-icon"><span class="icon-missed-call"></span></div> Not reachable- Screening Managers</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Purchase Complete</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?16"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Purchase Complete</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Re screening June</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?17"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Re screening June</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Delhi/NCR</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?18"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Delhi/NCR</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Screened</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?19"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> Screened</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item has-edit">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> VH Siddharth</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?20"><div class="c-sidebar-nav-icon"><span class="icon-pin"></span></div> VH Siddharth</a>     
             <a href="smartlist.php"><span class="icon-edit"></span></a>      
         </li>
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-checklist"></span></div> New Smart List</a>     
+            <a class="c-sidebar-nav-link" href="smartlist.php"><div class="c-sidebar-nav-icon"><span class="icon-checklist"></span></div> New Smart List</a>     
         </li>
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-delete"></span></div> Trash</a>     
+            <a class="c-sidebar-nav-link" href="leads-list.php?21"><div class="c-sidebar-nav-icon"><span class="icon-delete"></span></div> Trash</a>     
         </li>
 
         <li class="c-sidebar-nav-divider"></li>
         <li class="c-sidebar-nav-title mt-1">Recently Viewed</li>
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Suraj Shetty</a>          
+            <a class="c-sidebar-nav-link" href="lead-info.php"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Suraj Shetty</a>          
         </li> 
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Avinash Rajan</a>          
+            <a class="c-sidebar-nav-link" href="lead-info.php"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Avinash Rajan</a>          
         </li> 
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Sugam Sondhi</a>          
+            <a class="c-sidebar-nav-link" href="lead-info.php"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Sugam Sondhi</a>          
         </li> 
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="#"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Neha Saxena</a>          
+            <a class="c-sidebar-nav-link" href="lead-info.php"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Neha Saxena</a>          
         </li>     
       </ul>
       <!-- <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button> -->
@@ -199,7 +199,7 @@
             </a>
             <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg pt-0">
                 <div class="dropdown-header bg-light"><strong>Help</strong></div>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="getting-started.php">
                     <div class="c-icon mr-2"><span class="icon-start-1"></span></div> Getting Started
                 </a> 
                 <a class="dropdown-item" href="#">
@@ -259,8 +259,7 @@
           <?php include("search-form.php");?>
         
           <ol class="breadcrumb border-0 m-0">
-            <li class="breadcrumb-item">Home</li>
-            <li class="breadcrumb-item"><a href="#">Admin</a></li>
+            <li class="breadcrumb-item"><a href="./">Home</a></li>
             <li class="breadcrumb-item active">Dashboard</li>          
           </ol>
 
