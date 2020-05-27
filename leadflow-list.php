@@ -14,7 +14,7 @@
 
                 <div class="table-responsive lead-flow-table text-nowrap">
                   <table class="table table-bordered table-striped">
-                    <thead>
+                    <thead class="table-success">
                         <tr>
                             <th>Source Name</th>
                             <th class="text-center">Type</th>
