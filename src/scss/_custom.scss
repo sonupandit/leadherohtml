@@ -57,7 +57,7 @@ button{
         text-decoration: none;
         font-size: 16px;
         .text-value-lg {
-            font-size: 36px;
+            font-size: 28px;
             font-weight: 700;
             line-height: 1.2;
         }
@@ -207,7 +207,7 @@ button{
 }
 
 .table th, .table td {
-    padding: .5rem;
+    padding: 0.25rem .5rem;
 }
 
 
@@ -400,7 +400,7 @@ label{
 
 .ul-row{
     background-color: $white;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid #d8dbe0;
     box-shadow: 0 3px 3px rgba(0,0,0,0.1);
@@ -429,7 +429,7 @@ label{
 }
 
 .ul-info{
-    font-size: 13px;
+    font-size: 12px;
     p{
         margin-bottom: 0;
     }
@@ -493,7 +493,7 @@ label{
     display: flex;  
     flex-basis: 100% !important;
     @include media-breakpoint-up(xl){
-        max-width: 320px;
+        max-width: 283px;
     }
 }
 
@@ -631,20 +631,35 @@ label{
  }
 
     > .card{
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         .card-header{
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+            font-size: 12px;
+            .btn{
+                font-size: 12px;
+            }
         }
         .card-body{
-            font-size: 13px;
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
+            font-size: 11px;
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
             p{
                 margin-bottom: 5px;
                 &:last-of-type{
                     margin-bottom: 0;
                 }
+            }
+        }
+    }
+}
+
+.sc-inner{
+    .list-info{
+        li{
+            align-items: center;
+            > span{
+                font-size: 14px;
             }
         }
     }
