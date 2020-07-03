@@ -114,10 +114,9 @@
 
       <div class="row">
         <div class="col-md-12">
-          <div class="card">
-            <div class="card-header">Leads added today</div>
-            <div class="card-body">
-              <table class="table data-table text-center table-responsive-sm table-hover table-outline">
+             <strong class="data-title d-block pb-2">Leads added today</strong>
+             <div class="table-responsive text-nowrap">
+             <table class="table data-table text-center table-hover table-outline">
                 <thead class="thead-light">
                   <tr>
                     <th class="text-left">Name</th>
@@ -287,11 +286,12 @@
 
                 </tbody>
               </table>
-              <div class="data-all-btn clearfix">
-                <a href="" class="btn btn-outline-primary">View All 54 People</a>
-              </div>
+             </div>
+            <div class="data-all-btn clearfix">
+              <a href="" class="btn btn-outline-primary">View All 54 People</a>
             </div>
-          </div>
+
+         
         </div>
         <!-- /.col-->
       </div>

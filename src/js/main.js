@@ -22,6 +22,9 @@ $(window).on("resize", function(){
 });
 
 
+$(document).on("click", ".closing-btn", function(){
+    $(this).toggleClass("active");
+ });
 
 
 // search toogle

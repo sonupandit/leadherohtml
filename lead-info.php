@@ -9,9 +9,10 @@
                                 <div class="media align-items-center">
                                     <img src="images-leadhero/avatars/no-img.jpg" class="mr-3">
                                     <div class="media-body">
-                                        <h5 class="m-0">Nitin Kulkarni <a href=""><span class="icon-edit1"></span></a></h5>
-                                        <a href="mailto:nitindkulkarni@rediffmail.com">nitindkulkarni@rediffmail.com (Home)</a> <br>
-                                        <a href="tel:+919821879010">+919821879010 ( Home )</a>
+                                        <h5>Nitin Kulkarni <a href=""><span class="icon-edit1"></span></a></h5>
+                                        <a href="javascript:void(0)" class="btn closing-btn">Closing</a>
+                                        <!-- <a href="mailto:nitindkulkarni@rediffmail.com">nitindkulkarni@rediffmail.com (Home)</a> <br>
+                                        <a href="tel:+919821879010">+919821879010 ( Home )</a> -->
                                     </div>
                                 </div>
                             </div>

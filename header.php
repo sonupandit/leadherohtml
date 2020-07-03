@@ -123,16 +123,16 @@
         <li class="c-sidebar-nav-divider"></li>
         <li class="c-sidebar-nav-title mt-1">Recently Viewed</li>
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="lead-info.php"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Suraj Shetty</a>          
+            <a class="c-sidebar-nav-link" href="lead-info.php?1"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Suraj Shetty</a>          
         </li> 
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="lead-info.php"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Avinash Rajan</a>          
+            <a class="c-sidebar-nav-link" href="lead-info.php?2"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Avinash Rajan</a>          
         </li> 
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="lead-info.php"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Sugam Sondhi</a>          
+            <a class="c-sidebar-nav-link" href="lead-info.php?3"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Sugam Sondhi</a>          
         </li> 
         <li class="c-sidebar-nav-item">
-            <a class="c-sidebar-nav-link" href="lead-info.php"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Neha Saxena</a>          
+            <a class="c-sidebar-nav-link" href="lead-info.php?4"><div class="c-sidebar-nav-icon"><span class="icon-user-10"></span></div> Neha Saxena</a>          
         </li>     
       </ul>
       <!-- <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button> -->
@@ -232,9 +232,9 @@
                 <a class="dropdown-item" href="leadflow-list.php">
                     <div class="c-icon mr-2"><span class="icon-diagram"></span></div> Lead Flow
                 </a> 
-                <a class="dropdown-item" href="incentives.php">
+                <!-- <a class="dropdown-item" href="incentives.php">
                     <div class="c-icon mr-2"><span class="icon-growth"></span></div> Revenue / Incentives
-                </a> 
+                </a>  -->
                 <a class="dropdown-item" href="export.php">
                     <div class="c-icon mr-2"><span class="icon-export"></span></div> Export Data
                 </a> 
