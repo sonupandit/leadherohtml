@@ -12,7 +12,7 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Main styles for this application-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700&display=swap" rel="stylesheet">
-    <link href="css-leadhero/app.min.css?v=0.3" rel="stylesheet">    
+    <link href="css-leadhero/app.min.css?v=0.4" rel="stylesheet">    
   </head>
   <body class="c-app">
     <div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">

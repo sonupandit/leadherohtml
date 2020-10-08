@@ -826,3 +826,33 @@ label{
         width: 100%;
     }
 }
+
+// popup style
+.popup-box{
+    padding: 0 0 20px 0;  
+    .fancybox-close-small{
+        color: $white;
+    }   
+    .popup-header{       
+        padding: 15px 40px 15px 15px;     
+        background-color: $primaryDark;
+        color: $white;
+        h2{
+            margin: 0;
+            font-size: 20px;
+        }
+        h5{
+            font-weight: normal;
+            margin: 5px 0 0 0;
+            font-size: 14px;
+        }
+    }
+    .popup-body{
+        padding: 20px 15px 0;
+        max-height: calc(100vh - 200px);
+        overflow: auto;
+        img{
+            max-width: 100%;
+        }
+    }
+}
