@@ -1,5 +1,5 @@
 import "./jscolor";
-
+import fancybox from '@fancyapps/fancybox';
 
 
 $(document).on("click", ".c-header-toggler:eq(1)", function(){
